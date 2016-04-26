@@ -1,0 +1,15 @@
+package j31;
+
+public class j31 extends Thread {
+
+	public void run(){
+		
+	}
+	
+	public static void main(String args[]) {
+
+		j31 j31 = new j31();
+		
+	}
+
+}

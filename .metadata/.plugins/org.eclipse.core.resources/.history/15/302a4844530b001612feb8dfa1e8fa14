@@ -1,0 +1,22 @@
+package j31;
+
+public class j31 extends Thread {
+
+	public void run(){
+		
+	}
+	
+	public static void main(String args[]) {
+
+		j31 j31 = new j31();
+		j31.setPriority(MAX_PRIORITY);
+		
+		j31 j32 = new j31();
+		j32.setPriority(NORM_PRIORITY);
+		
+		j31 j33 = new j31();
+		j33.setPriority(MIN_PRIORITY);
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package j31;
+
+public class j31 extends Thread {
+
+	public static void main(String args[]) {
+
+	}
+
+}
